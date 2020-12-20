@@ -15,7 +15,7 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
 	implementation 'org.springframework.boot:spring-boot-starter-jersey'
-	implementation 'com.aliasi:lingpipe:4.1.0'
+	implementation 'com.aliasi:lingpipe:4.0.1'
 	implementation 'org.apache.commons:commons-lang3:3.11'
 	implementation 'org.glassfish.jersey.media:jersey-media-multipart'
 	implementation 'com.vdurmont:semver4j:3.1.0'
