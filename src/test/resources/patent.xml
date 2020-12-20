@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questel-patent-document lang="en" date-produced="20180805" produced-by="Questel" schema-version="3.23" file="US06176565B1.xml">
+  <bibliographic-data lang="en">
+    <publication-reference publ-desc="Granted patent as first publication">
+      <document-id>
+        <country>US</country>
+        <doc-number>06176565</doc-number>
+        <kind>B1</kind>
+        <date>20010123</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>US6176565</doc-number>
+      </document-id>
+    </publication-reference>
+    <original-publication-kind>B1</original-publication-kind>
+    <application-reference is-representative="YES" family-id="34841816" extended-family-id="13671806">
+      <document-id>
+        <country>US</country>
+        <doc-number>08631885</doc-number>
+        <kind>A</kind>
+        <date>19960416</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1996US-08631885</doc-number>
+      </document-id>
+      <document-id data-format="questel_Uid">
+        <doc-number>68290266</doc-number>
+      </document-id>
+    </application-reference>
+    <language-of-filing>en</language-of-filing>
+    <language-of-publication>en</language-of-publication>
+    <priority-claims>
+      <priority-claim kind="national" sequence="1">
+        <country>US</country>
+        <doc-number>63188596</doc-number>
+        <kind>A</kind>
+        <date>19960416</date>
+        <priority-active-indicator>N</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="1">
+        <doc-number>1996US-08631885</doc-number>
+      </priority-claim>
+      <priority-claim kind="international" sequence="2">
+        <country>WO</country>
+        <doc-number>JP9201163</doc-number>
+        <kind>A</kind>
+        <date>19920911</date>
+        <priority-linkage-type>A</priority-linkage-type>
+        <priority-active-indicator>N</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="2">
+        <doc-number>1992WO-JP01163</doc-number>
+      </priority-claim>
+      <priority-claim kind="national" sequence="3">
+        <country>JP</country>
+        <doc-number>23191191</doc-number>
+        <kind>A</kind>
+        <date>19910911</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="3">
+        <doc-number>1991JP-0231911</doc-number>
+      </priority-claim>
+      <priority-claim kind="national" sequence="4">
+        <country>JP</country>
+        <doc-number>23191291</doc-number>
+        <kind>A</kind>
+        <date>19910911</date>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="4">
+        <doc-number>1991JP-0231912</doc-number>
+      </priority-claim>
+      <priority-claim kind="national" sequence="5">
+        <country>US</country>
+        <doc-number>5045193</doc-number>
+        <kind>A</kind>
+        <date>19931004</date>
+        <priority-linkage-type>1</priority-linkage-type>
+        <priority-active-indicator>Y</priority-active-indicator>
+      </priority-claim>
+      <priority-claim data-format="questel" sequence="5">
+        <doc-number>1993US-08050451</doc-number>
+      </priority-claim>
+    </priority-claims>
+    <dates-of-public-availability>
+      <publication-of-grant-date>
+        <date>20010123</date>
+      </publication-of-grant-date>
+    </dates-of-public-availability>
+    <classifications-ipcr>
+      <classification-ipcr sequence="1">
+        <text>B41J   2/165       20060101A I20051008RMEP</text>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>B</section>
+        <class>41</class>
+        <subclass>J</subclass>
+        <main-group>2</main-group>
+        <subgroup>165</subgroup>
+        <classification-value>I</classification-value>
+        <generating-office>
+          <country>EP</country>
+        </generating-office>
+        <classification-status>R</classification-status>
+        <classification-data-source>M</classification-data-source>
+        <action-date>
+          <date>20051008</date>
+        </action-date>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classification-national>
+      <country>US</country>
+      <main-classification>
+        <text>347033000</text>
+        <class>347</class>
+        <subclass>033000</subclass>
+      </main-classification>
+    </classification-national>
+    <classifications-ecla>
+      <classification-ecla sequence="1">
+        <text>B41J-002/165C2B</text>
+        <section>B</section>
+        <class>41</class>
+        <subclass>J</subclass>
+        <main-group>002</main-group>
+        <subgroup>165C2B</subgroup>
+      </classification-ecla>
+    </classifications-ecla>
+    <patent-classifications>
+      <patent-classification sequence="1">
+        <classification-scheme office="EP" scheme="CPC">
+          <date>20130101</date>
+        </classification-scheme>
+        <classification-symbol>B41J-002/16538</classification-symbol>
+        <section>B</section>
+        <class>41</class>
+        <subclass>J</subclass>
+        <main-group>2</main-group>
+        <subgroup>16538</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+        <action-date>
+          <date>20130101</date>
+        </action-date>
+      </patent-classification>
+    </patent-classifications>
+    <number-of-claims>16</number-of-claims>
+    <exemplary-claim>1</exemplary-claim>
+    <figures>
+      <number-of-drawing-sheets>14</number-of-drawing-sheets>
+      <number-of-figures>21</number-of-figures>
+      <image-key data-format="questel">US6176565</image-key>
+    </figures>
+    <invention-title format="original" lang="en" id="title_en">Cleaning member for ink jet head and ink jet apparatus provided with said cleaning member</invention-title>
+    <references-cited>
+      <citation srep-phase="examiner">
+        <patcit num="1">
+          <text>UDDING ANNE C, et al</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>3879312</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US3879312</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="2">
+          <text>NAKAMURA FUMIHARU</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5126765</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5126765</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+      <citation srep-phase="examiner">
+        <patcit num="3">
+          <text>MUSSINI STEFANO</text>
+          <document-id>
+            <country>US</country>
+            <doc-number>5246977</doc-number>
+            <kind>A</kind>
+          </document-id>
+          <document-id data-format="questel">
+            <doc-number>US5246977</doc-number>
+          </document-id>
+        </patcit>
+      </citation>
+    </references-cited>
+    <related-documents>
+      <continuation>
+        <relation>
+          <parent-doc>
+            <document-id>
+              <country>US</country>
+              <doc-number>5045193</doc-number>
+              <kind>A</kind>
+              <date>19931004</date>
+            </document-id>
+          </parent-doc>
+        </relation>
+      </continuation>
+    </related-documents>
+    <parties>
+      <applicants>
+        <applicant data-format="original" app-type="applicant" sequence="1">
+          <addressbook lang="en">
+            <orgname>Canon Kabushiki Kaisha</orgname>
+            <address>
+              <address-1>Tokyo, JP</address-1>
+              <city>Tokyo</city>
+              <country>JP</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>JP</country>
+          </nationality>
+        </applicant>
+        <applicant data-format="questel" app-type="applicant" sequence="2">
+          <addressbook lang="en">
+            <orgname>CANON</orgname>
+          </addressbook>
+          <nationality>
+            <country>JP</country>
+          </nationality>
+        </applicant>
+      </applicants>
+      <inventors>
+        <inventor data-format="original" sequence="1">
+          <addressbook lang="en">
+            <name>Yanai, Noriyuki</name>
+            <address>
+              <address-1>Yokohama, JP</address-1>
+              <city>Yokohama</city>
+              <country>JP</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>JP</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="2">
+          <addressbook lang="en">
+            <name>Watabe, Masahiro</name>
+            <address>
+              <address-1>Yokohama, JP</address-1>
+              <city>Yokohama</city>
+              <country>JP</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>JP</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="3">
+          <addressbook lang="en">
+            <name>Tajika, Hiroshi</name>
+            <address>
+              <address-1>Yokohama, JP</address-1>
+              <city>Yokohama</city>
+              <country>JP</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>JP</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="4">
+          <addressbook lang="en">
+            <name>Arai, Atsushi</name>
+            <address>
+              <address-1>Kawasaki, JP</address-1>
+              <city>Kawasaki</city>
+              <country>JP</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>JP</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="5">
+          <addressbook lang="en">
+            <name>Uchida, Haruo</name>
+            <address>
+              <address-1>Yokohama, JP</address-1>
+              <city>Yokohama</city>
+              <country>JP</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>JP</country>
+          </nationality>
+        </inventor>
+        <inventor data-format="original" sequence="6">
+          <addressbook lang="en">
+            <name>Kuramochi, Kiyoshi</name>
+            <address>
+              <address-1>Tokyo, JP</address-1>
+              <city>Tokyo</city>
+              <country>JP</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>JP</country>
+          </nationality>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent sequence="1" rep-type="agent">
+          <addressbook lang="en">
+            <orgname>Fitzpatrick, Cella, Harper &amp; Scinto</orgname>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <examiners>
+      <primary-examiner>
+        <name>Barlow, John</name>
+      </primary-examiner>
+    </examiners>
+    <pct-or-regional-filing-data>
+      <document-id>
+        <country>WO</country>
+        <doc-number>JP9201163</doc-number>
+        <date>19920911</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>1992WO-JP01163</doc-number>
+      </document-id>
+    </pct-or-regional-filing-data>
+    <pct-or-regional-publishing-data>
+      <document-id>
+        <country>WO</country>
+        <doc-number>9304866</doc-number>
+        <kind>A1</kind>
+        <date>19930318</date>
+      </document-id>
+      <document-id data-format="questel">
+        <doc-number>WO9304866</doc-number>
+      </document-id>
+    </pct-or-regional-publishing-data>
+    <lgst-data>
+      <lgst-status>EXPIRED</lgst-status>
+    </lgst-data>
+  </bibliographic-data>
+  <abstract format="original" lang="en" id="abstr_en">
+    <p><br/>abstract.</p>
+  </abstract>
+  <description format="original" lang="en" id="desc_en">
+    <heading>FIELD OF THE INVENTION</heading>
+  </description>
+  <claims format="original" lang="en" id="claim_en">
+    <claim num="1">
+      <claim-text>We claim:</claim-text>
+      <claim-text>1.</claim-text>
+      <claim-text>A cleaning member for removing foreign matter deposited on an ink discharging outlet face of an ink jet recording head for conducting recording on a recording medium by discharging ink, said cleaning member comprising an ether series polyurethane rubber elastic body comprised of:</claim-text>
+      <claim-text>a polyether polyurethane prepolymer, a curing agent component for said polyether polyurethane prepolymer consisting only of a bifunctional component, and a water repellency-adding material having an active group for chemically bonding to said polyurethane rubber, wherein said curing agent comprises a compound selected from the group consisting of diols, glycols, bisphenols, and diamines, and said water repellency-adding material comprises a compound selected from the group consisting of modified silicone compounds and reactive fluorine-containing compounds.</claim-text>
+    </claim>
+    <claim num="2">
+      <claim-text>2. A cleaning member according claim 1, wherein the ink is aqueous ink.</claim-text>
+    </claim>
+    <claim num="3">
+      <claim-text>3. A cleaning member according to claim 1, wherein an ink contact angle at a surface of the cleaning member is 80 (degree)  or above.</claim-text>
+    </claim>
+    <claim num="4">
+      <claim-text>4. A cleaning member according to claim 1, wherein an amount of a sum of an active element of the curing agent component and the active group of the water repellency-adding material is present in a molar ratio of 0.8 to 1.05 of an amount of the isocyanate group contained in the polyurethane rubber.</claim-text>
+    </claim>
+    <claim num="5">
+      <claim-text>5. A cleaning member according to claim 1, wherein the recording head comprises an ink jet recording system in which recording is conducted by discharging liquid droplets through a discharging element using thermal energy, said ink jet recording system being provided with an electrothermal converting body as a means for generating said thermal energy.</claim-text>
+    </claim>
+    <claim num="6">
+      <claim-text>6. A cleaning member according to claim 1, wherein the water repellency-adding material is contained in the polyurethane rubber and the water repellency-adding material is compatible with the polyurethane rubber of the elastic body.</claim-text>
+    </claim>
+    <claim num="7">
+      <claim-text>7. A cleaning member according to claim 1, wherein the water repellency-adding material is a fluorine-containing compound.</claim-text>
+    </claim>
+    <claim num="8">
+      <claim-text>8. A cleaning member according to claim 1, wherein the water repellency-adding material is present in an amount in a range from 0.1 to 20 parts by weight versus 100 parts by weight of a total amount of the polyurethane rubber and the curing agent component.</claim-text>
+    </claim>
+    <claim num="9">
+      <claim-text>9. A cleaning member according to claim 1, wherein said water repellency-adding material is contained in and is compatible with said polyurethane rubber of said elastic body, and said cleaning member has a surface of 80 (degree)  or above in ink contact angle.</claim-text>
+    </claim>
+    <claim num="10">
+      <claim-text>10. A cleaning member according to claim 9, wherein the bifunctional component is a straight-chain diol.</claim-text>
+    </claim>
+    <claim num="11">
+      <claim-text>11. A cleaning member according to claim 9, wherein the ink is aqueous ink.</claim-text>
+    </claim>
+    <claim num="12">
+      <claim-text>12. A cleaning member according to claim 9, wherein an amount of a sum of an active element of the curing agent component and the active group of the water repellency-adding material is present in a molar ratio of 0.8 to 1.05 of an amount of the isocyanate group contained in the polyurethane rubber.</claim-text>
+    </claim>
+    <claim num="13">
+      <claim-text>13. A cleaning member according to claim 9, wherein the water repellency-adding material is a fluorine-containing compound.</claim-text>
+    </claim>
+    <claim num="14">
+      <claim-text>14. A cleaning member according to claim 9, wherein the water repellency-adding material is present in an amount in a range of 0.1 to 20 parts by weight versus 100 parts by weight of a total amount of the polyurethane rubber and the curing agent component.</claim-text>
+    </claim>
+    <claim num="15">
+      <claim-text>15. An ink jet apparatus provided with a support member for holding an ink jet head for conducting recording on a recording medium by discharging aqueous ink, said support member being provided with a means for scanning between a recording zone wherein said recording medium is transported and a non-recording zone outside said recording zone, and a cleaning blade for cleaning a discharging outlet face of said ink jet head in said non-recording zone, said cleaning blade comprising an ether series polyurethane rubber elastic body comprised of: a polyether polyurethane prepolymer, a curing agent component for said polyether polyurethane prepolymer consisting only of a bifunctional component, and a water repellency-adding material having an active group for chemically bonding to said polyurethane rubber, wherein said curing agent comprises a compound selected from the group consisting of diols, glycols, bisphenols, and diamines, and said water repellency-adding material comprises a compound selected from the group consisting of modified silicone compounds and reactive fluorine-containing compounds.</claim-text>
+    </claim>
+    <claim num="16">
+      <claim-text>16. An ink jet apparatus according to claim 15, wherein said water repellency-adding material is contained in and is compatible with said polyurethane rubber of said elastic body, and said cleaning blade has a surface of 80 (degree)  or above in ink contact angle.</claim-text>
+    </claim>
+  </claims>
+</questel-patent-document>
