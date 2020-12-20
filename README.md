@@ -35,7 +35,12 @@ Patents is a spring boot service for storing patents zip files.
     - /patents resource: To delete all stored patents.
     method: DELETE.
 
-#
+# Design 
+
+I used spring boot with jersey because it's a simple solution for a rest service and the vast majority of java
+engineers knows how it works. 
+As application architecture I used a hex architecture because it is the best suited for DDD (the design technique I work with).
+For the patents POST endpoint I used an async endpoint for optimizing server resources (expect high load on this resource). 
 
 ## License
 [the unlicense](https://unlicense.org)
