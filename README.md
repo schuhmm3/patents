@@ -41,6 +41,8 @@ I used spring boot with jersey because it's a simple solution for a rest service
 engineers knows how it works. 
 As application architecture I used a hex architecture because it is the best suited for DDD (the design technique I work with).
 For the patents POST endpoint I used an async endpoint for optimizing server resources (expect high load on this resource). 
+I get chemicals data from a properties file in order to maintain the code challenge as simple as I can but in a 
+real environment this data could be taken from a remote service, a database, etc.
 
 ## License
 [the unlicense](https://unlicense.org)
