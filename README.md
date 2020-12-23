@@ -55,7 +55,7 @@ Works (after depedency fix) with gradle
 
 ### Run pipeline
 
-Calling
+#### Calling
 
 ```
 schuhmm3@azure:~/challenges/backend/pg/patents$ curl -v -X POST -H 'Content-Type: multipart/form-data' -F 'data=@../../uspat1_201831_back_80001_100000.zip' localhost:8080/patents
@@ -78,9 +78,11 @@ schuhmm3@azure:~/challenges/backend/pg/patents$ curl -v -X POST -H 'Content-Type
 * Connection #0 to host localhost left intact
 ```
 
-Logfile 
+#### Logfile
 
-Database
+Nothing relevant 
+
+#### Database
 
 ```
 > db.patent.find().count();
@@ -107,4 +109,17 @@ Database
 { "_id" : "0244e5a9-449c-4abd-898f-a9574da516ea", "title" : "Device and method for mounting electronic components on printed circuit boards", "application" : "Questel", "year" : "2018", "abs" : "<p id=\"P-EN-00001\" num=\"00001\">      <br/>      The present invention relates to mounting an electric connector (20) onto a printed circuit board, particularly to a printed circuit board comprised of ceramic material, for instance either an LTCC substrate or an HTCC substrate.      <br/>      The problem addressed is one where the connector (20) tends to loosen from the substrate when the temperature varies.      <br/>      This is due to the difference in the coefficients of thermal expansion of the printed circuit board and the connector (20).      <br/>      The problem is solved with the aid of a so-called shim (10) that has a coefficient of thermal expansion between that of the printed circuit board and that of the connector.      <br/>      One side of the shim (10) is soldered onto the connector and the other side of the shim is soldered onto the printed circuit board.      <br/>      The connector (20) is therewith fastened to the printed circuit board.      <br/>      Shear stresses acting between the connector (20) and the printed circuit board are distributed through said board through the medium of two joints instead of one.      <br/>      The connector may alternatively be provided with a built-in shim.    </p>", "chemicals" : [ ], "_class" : "com.basf.codechallenge.domain.patents.Patent" }
 { "_id" : "a1856502-ba2a-4c0d-8d3d-0f6421da1e70", "title" : "Meter device for vehicle", "application" : "Questel", "year" : "2018", "abs" : "<p id=\"P-EN-00001\" num=\"00001\">      <br/>      A vehicle instrumentation system comprising a meter block having a display portion, a control portion, and a power supply portion.      <br/>      The display portion provides a display according to signals from the electronic component units.      <br/>      The control portion controls the electronic component units.      <br/>      The electric power supply portion supplies electric power to the electronic component units.      <br/>      These electronic component units are obtained by classifying and integrating electronic components other than the meter block.      <br/>      A mounting reference portion permits the meter block and the electronic component units to be attached and detached.    </p>", "chemicals" : [ ], "_class" : "com.basf.codechallenge.domain.patents.Patent" }
 { "_id" : "17e46c35-fabf-49c4-a54d-d4b3201ec76c", "title" : "Electrical device module", "application" : "Questel", "year" : "2018", "abs" : "<p id=\"P-EN-00001\" num=\"00001\">      <br/>      A module of an electrical device has a printed circuit board which may be pushed into the device and plugged onto a backplane of the device.      <br/>      A cuboid cage is connected to the printed circuit board of the device.      <br/>      The cuboid cage has a backplane arranged perpendicular to the printed circuit board of the device and is connected to the circuit board by means of connectors.      <br/>      The backplane of the cage has its own connectors for electrical connection to separate modular cage push-in units, in the form of cards or boards, which may be inserted into the cuboid cage of the device.    </p>", "chemicals" : [ ], "_class" : "com.basf.codechallenge.domain.patents.Patent" }
+```
+
+```
+> db.patent.find( {chemicals : { $exists: true, $not: {$size: 0} }  } ).count();
+4
+```
+
+```
+> db.patent.find( {chemicals : { $exists: true, $not: {$size: 0} }  } );
+{ "_id" : "454b8556-4f9b-4f72-8d2f-11fd8bb6d0c2", "title" : "Non-carcinogenic substitute for play sand", "application" : "Questel", "year" : "2018", "abs" : "<p id=\"P-EN-00001\" num=\"00001\">      <br/>      A material for use in children's sand boxes, play sets and play areas that is not hazardous to the health of humans and comprises calcium carbonate or calcium magnesium carbonate.    </p>", "chemicals" : [ "calcium carbonate" ], "_class" : "com.basf.codechallenge.domain.patents.Patent" }
+{ "_id" : "f627b2c5-2583-4bcc-a0e6-d036e33a0784", "title" : "Low-density tobacco filler and a method of making low-density tobacco filler and smoking articles therefrom", "application" : "Questel", "year" : "2018", "abs" : "<p id=\"P-EN-00001\" num=\"00001\">      <br/>      A low-density filler material for cigarettes from either a low-density tobacco composition or an extruded grain or starch composition.      <br/>      The low-density tobacco composition and a method of making the low-density tobacco composition by extruding a mixture of tobacco and flour or tobacco and starch under conditions whereby the solvent in the extruded mixture flashes into vapor upon release from the extrusion head.      <br/>      The low-density tobacco composition is formed without the aid of an added binder.      <br/>      The low-density flour or starch material and a method of making it by extruding flour or starch with a filler material such as calcium carbonate under conditions whereby the solvent in the extruded mixture flashes into vapor upon extrusion through the orifice die.      <br/>      The extruded composition can then be cut and used in place of cut tobacco filler.    </p>", "chemicals" : [ "calcium carbonate" ], "_class" : "com.basf.codechallenge.domain.patents.Patent" }
+{ "_id" : "8e3e17f7-b9f5-492c-83fa-ea9a99b0bdeb", "title" : "Heat modifiable edible dog chew", "application" : "Questel", "year" : "2018", "abs" : "<p id=\"P-EN-00001\" num=\"00001\">      <br/>      A completely digestible highly nutritious dog chew formulated primarily of beaded corn starch or a mixture of beaded corn starch and potato starch, and calcium carbonate, the texture of hardness or which is easily modified to suit a particular dog by the dog owner.      <br/>      By irradiating the chew in a microwave oven, the chew is caused to expand and is thereby rendered more easily chewable.    </p>", "chemicals" : [ "calcium carbonate" ], "_class" : "com.basf.codechallenge.domain.patents.Patent" }
+{ "_id" : "c8a0a37c-90d9-48bb-9fa0-ec51552d111e", "title" : "Method of recovering calcium from waste material or contaminated natural calcic material", "application" : "Questel", "year" : "2018", "abs" : "<p id=\"P-EN-00001\" num=\"00001\">      <br/>      Method of recovering calcium carbonate from waste material or contained natural calcic material.      <br/>      Calcium is recovered by prepariag an aqueous suspension the material containing calcium to be recovered and by lowering the pH of the suspension to pH&lt;6, preferably pH&lt;4, for providing a spension including an acidic liquid phase containing the calcium compounds in soluble form.      <br/>      Thereafter the pH of the liquid is raised to pH&gt;6, preferably pH&gt;7, by mixing a base therein, for precipitating the main portion of aluminium therein.      <br/>      Thereafter the neutral or basic liquid phase is carbonized by introducing Na2CO3 or NaHCO3 therein, for precipitation of the calcium compounds as CaCO3.    </p>", "chemicals" : [ "calcium carbonate" ], "_class" : "com.basf.codechallenge.domain.patents.Patent" }
 ```
