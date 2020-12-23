@@ -29,11 +29,14 @@ Patents is a spring boot service for storing patents zip files.
 ```
 2. Call to any of the exposed resources:
     - /patents resource: To store new patents.
-    method: POST. 
-    Content-type: multipart/form-data. 
+    ```
+    curl -X POST -H 'Content-Type: multipart/form-data' -F 'data=@../../uspat1_201831_back_80001_100000.zip' localhost:8080/patents
+    ```
     Post attribute: data containing patents zip file. 
     - /patents resource: To delete all stored patents.
-    method: DELETE.
+    ```
+    curl -X DELETE localhost:8080/patents
+    ```
 
 # Design 
 
